@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|VT323&display=swap");
+body {
+  background: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+body > main > div.topo > div.container > div > div.logo > div {
+  display: block;
+  width: 170px;
+  font-family: 'VT323', Arial;
+  font-size: 28px;
+  text-align: right;
+  line-height: 23px;
+  padding: 15px 0;
+}
+
+body > main > div.topo > div.container > div > nav.menu > ul.menu {
+  display: block;
+  width: 100%;
+  list-style: none;
+  text-align: right;
+  padding: 25px 0;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+body > main > div.topo > div.container > div > nav.menu > ul.menu > li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+body > main > div.topo > div.container > div > nav.menu > ul.menu > li.inicio > a {
+  color: #1981f8;
+}
+
+body > main > div.topo > div.container > div > nav.menu > ul.menu > li > a {
+  color: #333;
+  text-decoration: none;
+}
+
+body > main > div.topo > div.container > div > nav.menu > ul.menu > li > a:hover {
+  color: #1981f8;
+  text-decoration: none;
+}
+
+body > main > div.banner > img {
+  width: 100%;
+}
+
+body > section#apresentacao > div.container > div.sobre {
+  padding: 25px 0;
+}
+
+body > section#apresentacao > div.container > div.sobre > div.row > div.texto > h3 {
+  font-size: 24px;
+}
+
+body > section#apresentacao > div.container > div.sobre > div.row > div.texto > p {
+  font-size: 18px;
+}
+
+body > section#apresentacao > div.container > div.sobre > div.row > div.imagem > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+body > section#apresentacao > div.container > div.video {
+  padding-bottom: 25px;
+}
+
+body > section#apresentacao > div.container > div.video > iframe {
+  width: 100%;
+  height: 350px;
+}
+
+body > section#contato {
+  background-color: #CCC;
+  padding: 25px 0;
+}
+
+body > section#contato > div.container > div.row > div.form-contato > form > label, body > section#contato > div.container > div.row > div.form-contato > form > input, body > section#contato > div.container > div.row > div.form-contato > form > textarea {
+  display: block;
+  width: 100%;
+}
+
+body > section#contato > div.container > div.row > div.form-contato > form > label {
+  margin-bottom: 0;
+}
+
+body > section#contato > div.container > div.row > div.form-contato > form > input {
+  margin-bottom: 10px;
+  height: 35px;
+}
+
+body > section#contato > div.container > div.row > div.form-contato > form > textarea {
+  height: 100px;
+}
+
+body > section#contato > div.container > div.row > div.form-contato > form > button {
+  margin-top: 10px;
+  background-color: #333;
+  border: none;
+  color: #FFF;
+}
+
+body > section#contato > div.container > div.row > div.dados-contato {
+  padding-top: 35px;
+}
+
+body > section#contato > div.container > div.row > div.dados-contato > p {
+  font-size: 18px;
+}
+
+body > section#contato > div.container > div.row > div.dados-contato > a {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+body > section#contato > div.container > div.row > div.dados-contato > a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+body > footer > div.rodape {
+  background-color: #777;
+  padding: 30px;
+}
+
+body > footer > div.rodape > div.container > div.row > div.menu > nav.menu > ul.menu {
+  list-style: none;
+}
+
+body > footer > div.rodape > div.container > div.row > div.menu > nav.menu > ul.menu > li {
+  margin-bottom: 5px;
+}
+
+body > footer > div.rodape > div.container > div.row > div.menu > nav.menu > ul.menu > li > a {
+  color: #FFF;
+  font-size: 20px;
+}
+
+body > footer > div.rodape > div.container > div.row > div.menu > nav.menu > ul.menu > li > a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body > footer > div.rodape > div.container > div.row > div.informacao > p {
+  color: #FFF;
+  font-size: 18px;
+}
+
+body > footer > div.rodape > div.container > div.row > div.links {
+  padding-left: 10px;
+}
+
+body > footer > div.rodape > div.container > div.row > div.links > a {
+  display: block;
+  width: 100%;
+  color: #FFF;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 991px) {
+  body > footer > div.rodape > div.container > div.row > div.links > a {
+    font-size: 16px;
+  }
+}
+
+body > footer > div.rodape > div.container > div.row > div.links > a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body > footer > div.rodape > div.container > div.row > div.links > a > span {
+  font-size: 18px;
+  color: #FFF;
+}
+
+body > footer > div.rodape > div.container > div.row > div.links > a > span > i.fa-stack-2x {
+  color: #333;
+}
+
+body > footer > div.copy {
+  background-color: #333;
+  color: #FFF;
+  padding: 10px 0;
+}
+
+body > footer > div.copy > p {
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */
